@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+//     let user ={
+//         name: "aaaa",
+//         age: 19
+//     }
+// console.log(user);
+
+// let fruits = [ "банан", "апельсин","мандарин"]
+// console.log(fruits[1]);
+
+// let cars = ["BMW" , "AUDI" , "AMG"]
+
+// console.log(cars.length);
+
+// for(let i = 0 ; i < cars.length ; i++){
+//     console.log(cars[i]);
+    
+// }
+
+// let fristName = ["Marz" , "Dzan" , "Aysh" , "Xabr"]
+
+
+// for(let i = 0 ; i < fristName.length ; i++){
+//     console.log(fristName[i]);
+    
+// }
+
+// function FruitCount(array) {
+//     let count = 0 ;
+    
+//     for(let i = 0 ; i < array.length ; i++){
+//         console.log([i]);
+//         count++
+//     }
+//     return "Количество фруктов: " + count;
+// }
+// FruitCount(["банан" , "арбуз" , "мандарин" , "киви" , "Груша"])
+
+
+// function cars(array) {
+//     let count = 0;
+
+//     for(let i = 0 ; i < array.length ; i++){
+//         console.log([i]);
+//         count++
+//     }
+//     return "1Машина" , "2Машина" , "3Машина" + count;
+// }
+// cars(["1Машина" , "2Машина" , "3Машина"])
+
+
+
+// // Объявляем функцию FruitCount. 
+// // Параметр по умолчанию (array = []) защищает от ошибок: если функцию вызвать без аргументов, 
+// // вместо undefined создастся пустой массив, и код не «упадет».
+// function FruitCount(array = []) {
+  
+//   // Создаем переменную-счетчик. Сюда мы будем прибавлять по единице для каждого фрукта.
+//   let count = 0; 
+  
+//   // Запускаем цикл. Он начинается с нуля (i = 0) и работает до тех пор, 
+//   // пока индекс i меньше, чем количество элементов в массиве (array.length).
+//   // После каждого шага индекс увеличивается на 1 (i++).
+//   for (let i = 0; i < array.length; i++) {  
+    
+//     // Внимание на квадратные скобки: эта строчка создает НОВЫЙ массив из одного элемента [i] 
+//     // на каждой итерации и выводит его в консоль. В консоли это будет выглядеть как, [1], [2] и т.д.
+//     console.log([i]);  
+    
+//     // Увеличиваем наш счетчик фруктов на единицу.
+//     count++; 
+//   } 
+  
+//   // Склеиваем (конкатенируем) строку и итоговое число в переменной count, затем возвращаем результат.
+//   return "Количество фруктов: " + count; 
+// }
+
+// // Вызываем функцию и передаем в неё массив из 5 строк-фруктов.
+// // Функция вернет строку: "Количество фруктов: 5"
+// FruitCount(["банан", "арбуз", "мандарин", "киви", "Груша"]);
+
+
+
+// Методы масива
+
+// push() Добивает элемент в конец масива
+// const cars = ["amg" , "audi" , "bmw"]
+
+// cars.push("Lada");
+// console.log(cars);
+
+
+// // pop() удаляет последний элемент масива
+// cars.pop()
+// console.log(cars);
+
+// // unshift() добавляет элемент в начало массива
+
+// let cars2 = ["amg" , "audi" , "bmw"];
+// cars2.unshift("Lada")
+// console.log(cars2);
+
+// // shift() удаляет элемент с начала массива
+// cars.shift()
+
+// function abc[] {
+    
+// }
+
+// function abc( n ){
+//     let cars = ["amg" , "audi" , "bmw"]
+//     cars.push(n);
+//     return(cars);
+// }
+// abc()
+
+
+// Много мерный массив 
+
+
+
+// let fruits = [
+//     ["киви", ["груша", [2, [3, [4, [5, [6, [7, [8, [9, [10, [11]]]]]]]]]]]],
+//     ["ваня", "исма", 2, true]
+// ];
+
+
+// console.log(fruits[0][1][1][1][1][1][1][1][1][1][1][0]); 
+
+
+// let users = [
+//     {
+//         name: "isma",
+//         age: 19
+//     },
+//     {
+//         name: "Maga",
+//         age: 20,
+//         cars: ["bmw","amg"]
+//     },
+//     {
+//         name: "salman",
+//         age: 21
+//     }
+// ]
+// console.log(users[2].name);
+
+// users[2].name = "Truxa"
+// console.log(users);
+
+
+
+// ------toString - метод который преобразует массив в строку 
+
+// let cars =["amg","bmw","audi"]
+
+// console.log(cars.toString());
+
+// console.log([] + 1);
+
+// ----------сравнение массивов ------------
+
+console.log([] == []); // false
+console.log([0] == [0]); // false
+
+
+
+
+    </script>
+</body>
+</html>
